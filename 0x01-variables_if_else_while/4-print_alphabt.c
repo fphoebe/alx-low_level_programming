@@ -7,7 +7,6 @@
 int main(void)
 {
 	char alpha;
-
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha != 'e' && alpha != 'q')
@@ -16,5 +15,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0);
+	return (0);
 }
