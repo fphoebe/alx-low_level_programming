@@ -11,10 +11,10 @@ int main(void)
 	for (num = 0; num < 10; num++)
 	{
 		putchar(num + '0');
-		if  (num != 9)
-		{
-			putchar(',');
-		}
+	}
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	{
+			putchar('alpha');
 	}
 	putchar('\n');
 	return (0);
