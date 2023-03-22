@@ -1,19 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Program prints the natural numbers below 1024 that are
- * multiplies of 3 or 5
+ * main - Program that prints the add of the fibonacci numbers
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int a, b;
+	int c;
+	long int x, y, z;
 
-	for (a = 1; a < 1024; a++)
+	x = 1;
+	y = 2;
+	printf("%ld, %ld", x, y);
+	for (c = 0; c < 48; c++)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-			b += a;
+		z = x + y;
+		printf(", %ld", z);
+		x = y;
+		y = z;
 	}
-	printf("%d\n", b);
+	printf("\n");
 	return (0);
 }
