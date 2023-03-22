@@ -1,25 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - Program that prints the add of the fibonacci numbers
+ * main -Program that prints the add of the even-valued
+ * terms
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int c;
-	long int x, y, z;
+	long int x, y, z, outp;
 
 	x = 1;
 	y = 2;
-	printf("%ld, %ld", x, y);
-	for (c = 0; c < 48; c++)
+	z = outp = 0;
+	while (z <= 4000000)
 	{
 		z = x + y;
-		printf(", %ld", z);
 		x = y;
 		y = z;
+		if ((x % 2) == 0)
+		{
+			outp += x;
+		}
 	}
-	printf("\n");
+	printf("%ld\n", outp);
 	return (0);
 }
