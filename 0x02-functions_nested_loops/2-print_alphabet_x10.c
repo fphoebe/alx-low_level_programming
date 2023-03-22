@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *Description -prints 10 times the alphabet
- *return - always
-  */
+ * main - Program that prints lowercase and  a new line
+ * Return: Always 0
+ */
 void print_alphabet_x10(void)
 {
 	int num;
