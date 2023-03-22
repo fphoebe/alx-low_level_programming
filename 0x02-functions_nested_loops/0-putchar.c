@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  *main -Entry point
-  *Description -prints -putchar to stdout
-  *Return -always 0
-   */
+ * main -Entry point of a program that prints _putchar followed by a new line
+ *Description -prints -putchar to stdout
+ *Return -always 0
+ */
 int main(void)
 {
 	_putchar('_');
