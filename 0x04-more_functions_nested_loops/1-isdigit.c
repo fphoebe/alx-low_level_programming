@@ -1,16 +1,14 @@
 /**
- * print - _isdigit - A program that prints the last digit
- * of a number.
+ * _isdigit - checks if numbers are 0-9
+ * @c: char to be checked.
  *
- * @n: input number as an integer.
- *
- * Return:is digit.
+ * Return: 0 0r 1
  */
-int _isdigit(int i)
+int _isdigit(int c)
 {
-	int i;
+	int c;
 
-	if (i >= '0' && c <= '9')
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
