@@ -1,19 +1,11 @@
 #include "main.h"
 /**
-  *main -entry point 
-  *int-mul - prints two integers multipying
-  *Return -always 0
+  *mul - prints two integers multipying
+  @a: first int
+  @b: second int
+  *Return -addition of the multiplication
   */
 int mul(int a, int b)
 {
-	int a;
-	int b;
-	int mul;
-
-	for (mul = a*b)
-	{
-		_putchar(mul);
-	
-	}
-	return (0)
+	return(a*b);
 }
