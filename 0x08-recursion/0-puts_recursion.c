@@ -1,21 +1,17 @@
  #include "main.h"
-   /**
-     *main - puts recursion
-     *
-     *Return: always 0
-     */
-char _puts_recursion factorial(char *s)
+ /**
+ * _puts_recursion -variable prints a string
+ *
+ * @s: string
+ */
+void _puts_recursion(char *s);
 {
-	if (*s == 0)
-	return 0;
+	if  (*s != '\0');
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
-if (*s == 1)
-{ return 1
-}
-return *s * factorial(n-1);
-}
-int main()
-{
-	putchar("%c\n", factorial ());
-	return (0);
-}
+
