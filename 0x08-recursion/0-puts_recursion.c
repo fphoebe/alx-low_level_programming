@@ -1,6 +1,6 @@
  #include "main.h"
  /**
- * _puts_recursion -variable prints a string
+ * _puts_recursion - variable prints a string
  *
  * @s: string
  */
